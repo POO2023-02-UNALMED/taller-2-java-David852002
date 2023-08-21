@@ -4,7 +4,7 @@ public class Motor {
 	
 	public int numeroCilindros;
 	public String tipo;
-	public static int registro;
+	public int registro;
 	
 	public void cambiarRegistro(int nuevoRegistro) {
 		
