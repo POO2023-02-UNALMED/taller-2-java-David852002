@@ -5,7 +5,7 @@ public class Auto {
 	int precio;
 	Asiento[] asientos;
 	String marca;
-	int registro;
+	static int registro;
 	int cantidadCreados;
 	
 		
@@ -23,8 +23,7 @@ public class Auto {
 	}
 	
 	public void verificarIntegridad() {
-		if (Auto.registro.equals(Asiento.registro) && 
-			Auto.registro.equals(Motor.registro)	) {
+		if (registro == Asiento.registro && registro == Motor.registro	) {
 			
 			System.out.println("Auto original");
 		}
