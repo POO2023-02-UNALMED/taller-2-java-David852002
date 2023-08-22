@@ -10,7 +10,7 @@ public class Auto {
 	
 		
 	
-	public int cantidadAsientos() {
+	int cantidadAsientos() {
 	 
 	int contador =0;
 	
@@ -22,7 +22,7 @@ public class Auto {
 	return contador;
 	}
 	
-	public void verificarIntegridad() {
+	void verificarIntegridad() {
 		if (registro == Asiento.registro && registro == Motor.registro	) {
 			
 			System.out.println("Auto original");
