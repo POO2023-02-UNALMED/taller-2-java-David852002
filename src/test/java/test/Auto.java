@@ -23,21 +23,27 @@ public class Auto {
 	}
 	
 	void verificarIntegridad() {
-		if (registro == Asiento.registro && registro == Motor.registro	) {
+		if (registro == Motor.registro	) {
 			
-			System.out.println("Auto original");
-		}
-		
-		else{
+			for (Asiento asiento : asientos) {
+		         if (registro == asiento.registro) {
+		            
+		        	 System.out.println("Auto original");
+		        	 
+		             }
+			
+			else{
 			
 			System.out.println("Las piezas no son originales");
 			
-			}
+			     }
 		
 			
 			
 			
-		}
+		  }
+	  }
+
 	}
-	
+}
 
