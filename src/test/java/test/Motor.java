@@ -6,17 +6,17 @@ public class Motor {
 	String tipo;
 	static int registro;
 	
-	void cambiarRegistro(int nuevoRegistro) {
+	void cambiarRegistro(int registro) {
 		
-		this.registro = nuevoRegistro;
+		this.registro = registro;
 		
 	}
 	
-	void asignarTipo(String nuevoTipo) {
+	void asignarTipo(String tipo) {
 		
-		if (nuevoTipo=="gasolina" || nuevoTipo=="electrico") {
+		if (tipo=="gasolina" || tipo=="electrico") {
 			
-			this.tipo = nuevoTipo;
+			this.tipo = tipo;
 			
 		}
 		
