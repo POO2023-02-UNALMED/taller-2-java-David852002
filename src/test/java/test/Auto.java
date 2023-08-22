@@ -15,8 +15,8 @@ public class Auto {
 	}
 	
 	public void verificarIntegridad() {
-		if (Auto.registro == Asiento.registro && 
-			Auto.registro == Motor.registro) {
+		if (Auto.registro.equals(Asiento.registro) && 
+			Auto.registro.equals(Motor.registro)	) {
 			
 			System.out.println("Auto original");
 		}
