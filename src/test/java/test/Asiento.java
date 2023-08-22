@@ -4,7 +4,7 @@ public class Asiento {
 	
 	String color;
 	int precio;
-	static int registro;
+	int registro;
 
 	
 		
