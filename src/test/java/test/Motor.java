@@ -2,9 +2,9 @@ package test;
 
 public class Motor {
 	
-	public int numeroCilindros;
-	public String tipo;
-	public int registro;
+	int numeroCilindros;
+	String tipo;
+	int registro;
 	
 	public void cambiarRegistro(int nuevoRegistro) {
 		

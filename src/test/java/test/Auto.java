@@ -1,12 +1,12 @@
 package test;
 
 public class Auto {
-	public String modelo;
-	public int precio;
-	public Asiento[] asientos;
-	public String marca;
-	public  int registro;
-	public int cantidadCreados;
+	String modelo;
+	int precio;
+	Asiento[] asientos;
+	String marca;
+	int registro;
+	int cantidadCreados;
 	
 		
 	
